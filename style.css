@@ -13,8 +13,8 @@ body {
     display: flex;
     justify-content: space-between;
     border-bottom: solid black 1px;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
     position: sticky;
     top: 0;
     background-color: white;
@@ -32,6 +32,7 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
+    background-color: white;
 
 }
 
@@ -40,15 +41,14 @@ body {
     font-size: 16px;
     width: 100%;
     background-color: transparent;
-}
-.navbar__s2 input:focus{
     outline: none;
 }
+
 .navbar__s3{
     display: flex; 
     gap: 10px;
     align-items: center;
-
+}
 .navbar__s4{
     display: none;
 }
@@ -76,12 +76,13 @@ body {
     display: block;
 
 }
-}
 .categories{
     display: flex;
     padding: 10px;
     border-bottom: solid black 1px;
     justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 .categories p{
     background-color: #a435f0;
@@ -102,15 +103,12 @@ body {
 .sale-image{
     position: relative;
 }
-.Sale-Image img{
-    width: 100%;
-} 
 
 .sale-image__offer{
     width: 35%;
     border: solid black 2px;
     background-color: white;
-    padding: 2%;
+    padding: 20px;
     position: absolute;
     top: 25%;
     left: 10%;
